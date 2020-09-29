@@ -118,3 +118,5 @@ plus = Button(gui, text=' + ', fg='black', bg='#9abaed',
 	Decimal= Button(gui, text='.', fg='black', bg='#9abaed', 
 					command=lambda: press('.'), height=1, width=7) 
 	Decimal.grid(row=6, column=0) 
+# start the GUI 
+	gui.mainloop()
