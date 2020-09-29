@@ -24,3 +24,7 @@ def equalpress():
 
 		equation.set(" error ") 
 		expression = ""
+def clear(): 
+	global expression 
+	expression = "" 
+	equation.set("") 
