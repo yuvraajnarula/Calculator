@@ -1,2 +1,3 @@
 # Calculator
-Calculator programmed using python library tkinter
+Calculator programmed using python library Tkinter. 
+
