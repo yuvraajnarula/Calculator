@@ -90,3 +90,31 @@ if __name__ == "__main__":
 	button0 = Button(gui, text=' 0 ', fg='black', bg='#9abaed', 
 					command=lambda: press(0), height=1, width=7) 
 	button0.grid(row=5, column=0) 
+#operators
+plus = Button(gui, text=' + ', fg='black', bg='#9abaed', 
+				command=lambda: press("+"), height=1, width=7) 
+	plus.grid(row=2, column=3) 
+
+	minus = Button(gui, text=' - ', fg='black', bg='#9abaed', 
+				command=lambda: press("-"), height=1, width=7) 
+	minus.grid(row=3, column=3) 
+
+	multiply = Button(gui, text=' * ', fg='black', bg='#9abaed', 
+					command=lambda: press("*"), height=1, width=7) 
+	multiply.grid(row=4, column=3) 
+
+	divide = Button(gui, text=' / ', fg='black', bg='#9abaed', 
+					command=lambda: press("/"), height=1, width=7) 
+	divide.grid(row=5, column=3) 
+
+	equal = Button(gui, text=' = ', fg='black', bg='#9abaed', 
+				command=equalpress, height=1, width=7) 
+	equal.grid(row=5, column=2) 
+
+	clear = Button(gui, text='Clear', fg='black', bg='#9abaed', 
+				command=clear, height=1, width=7) 
+	clear.grid(row=5, column='1') 
+
+	Decimal= Button(gui, text='.', fg='black', bg='#9abaed', 
+					command=lambda: press('.'), height=1, width=7) 
+	Decimal.grid(row=6, column=0) 
